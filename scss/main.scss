@@ -1,0 +1,18 @@
+// Breadcrumb
+// ----------
+/// @group component-breadcrumb
+/// @example html
+///   <nav class="breadcrumb">
+///     <a href="index.html">Herman</a> »
+///     <strong>_Component: Breadcrumb</strong>
+///   </nav>
+.breadcrumb {
+  background: color('callout');
+  padding: size('shim') size('flex-gutter');
+
+  a,
+  span,
+  strong {
+    display: inline-block;
+  }
+}
